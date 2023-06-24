@@ -1,0 +1,290 @@
+table { 
+   border-spacing: 30px;
+}
+
+td.line{
+  border-bottom:2pt solid #D53707;
+}
+
+td.entry {
+    /* padding: 25px 50px 25px 25px; */
+	padding-top: 25px;
+	padding-right: 50px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
+
+html, body{
+	height: 100%;
+	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #D53707;
+}
+
+h1 {font-size: 40px; }
+
+h2 {font-size: 20px; }
+
+h2.title {color: #FFFFFF}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 240%;
+	text-align: justify;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+ul, ol { }
+
+blockquote {
+	background:#E1E1D9}
+
+a { color: #D53707; }
+li { color: #D53707; }
+
+a:hover { text-decoration: none; }
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 7px 30px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 7px 0 0 30px;
+}
+
+hr { display: none; }
+
+
+/* Header */
+
+#header-wrapper {
+min-height:100%;
+  height: 100%;
+}
+
+#header {
+	height: 52px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background: url(images/img02.jpg) repeat;
+	border-bottom: 4px solid #910000;
+}
+
+/* Menu */
+
+#menu {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+	
+	height: 40px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 25px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	padding: 5px 5px;
+	text-decoration: none;
+	font: 14px Georgia, "Times New Roman", Times, serif;
+	color: #FFFFFF;
+}
+
+#menu a:hover { 
+	text-decoration: underline;
+	background: #C03511;
+
+ }
+
+#menu .current_page_item a {
+	background: #910000;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	margin: 0 auto;
+	padding: 0 40px;
+	overflow:auto;
+	padding-bottom: 150px
+
+}
+
+/* LOGO */
+
+#logo {
+	
+	
+	height: 175px;
+}
+
+#logo img {padding: 5px 20px 5px 10px}
+
+#logo h1, #logo p {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	line-height: normal;
+}
+
+#logo h1 { padding-top: 45px;
+}
+
+#logo h1 a {
+	padding: 5px 0 5px 20px;
+	text-decoration: none; 
+	background: #000000; 
+	color: #E46115;
+}
+
+#logo h1 a:hover { text-decoration: none; }
+
+#logo h2, #logo p {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+	line-height: normal;
+}
+
+#logo h2 { padding-top: 2px;}
+
+#logo h2 a {
+	padding: 5px 0 5px 10px;
+	text-decoration: none; 
+	background: #000000; 
+	color: #E46115;
+}
+
+#logo h2 a:hover { text-decoration: none; }
+
+#logo p {
+	padding: 65px 0 0 15px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	color: #B6ACA2;
+}
+
+#logo p a {
+	text-decoration: none;
+	color: #B6ACA2;
+}
+
+#logo p a:hover { text-decoration: underline; }
+
+/* Content */
+
+#content {
+	width: 940px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#tablecontent {
+	width: 500px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Post */
+
+.post {
+	margin-bottom: 25px;
+	
+}
+
+.post .title {
+	margin-bottom: 3px;
+	padding: 2px 0px 2px 15px;
+	background: url(images/img03.jpg) repeat left top;
+}
+
+.post .meta {
+	margin: 0 0 3px 0;
+	padding: 2px 30px 2px 15px;
+	font: italic 10px Georgia, "Times New Roman", Times, serif;
+	color: #B6ACA2;
+}
+
+.post .meta a { color: #B6ACA2; }
+
+.post .entry {
+	padding-top: 25px;
+	padding-right: 50px;
+	padding-bottom: -5px;
+	padding-left: 25px;
+}
+
+.post .links {
+	margin: 0 250px 0 0;
+	padding: 0 0 0 0px;
+}
+
+.post .links .comments {
+}
+
+.post .links .permalink {
+	padding-left: 17px;
+}
+
+/* Sidebar */
+
+
+
+/* Footer */
+
+#footer {
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	margin-top: -0px; /* negative value of footer height */
+	clear:both;
+	background: url(images/img02.jpg) repeat;
+	border-top: 4px solid #910000;
+}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	line-height: normal;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
