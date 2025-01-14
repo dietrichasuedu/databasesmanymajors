@@ -96,7 +96,8 @@
 				</tr>
 			</table>
 		</li>
-		<li>Mac: Pop-up will occur saying: "... can't be opened because it is from an unidentified developer". Go to System Preferences then Security and Privacy. On the General tab, look for the "Open Anyway" button. You may be prompted to Open again when you launch.
+		<li>Mac: Pop-up will occur saying: "... can't be opened because it is from an unidentified developer". Go to System Systems then Privacy and Security. Look for the "Open Anyway" button. You may be prompted to Open again when you launch. This occurs for both the visualization launcher and java. For the .dylib files, navigate to the lib folder and issue the following command: <br />
+		xattr -d com.apple.quarantine *.dylib <br />
 		<table>
 				<tr>
 					<td align="center">
